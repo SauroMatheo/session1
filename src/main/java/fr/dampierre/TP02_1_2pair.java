@@ -2,7 +2,7 @@ package fr.dampierre;
 
 import java.util.Scanner;
 
-public class TP02pair {
+public class TP02_1_2pair {
     static boolean estPair(int nombre) {
         return nombre % 2 == 0;
     }

@@ -2,7 +2,7 @@ package fr.dampierre;
 
 import java.util.Scanner;
 
-public class TP02refactor {
+public class TP02_3refactor {
     static int compteBillets(int montant) {
         System.out.println();
         int nbBillets = montant / 20;
