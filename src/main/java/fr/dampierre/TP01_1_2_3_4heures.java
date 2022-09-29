@@ -2,7 +2,7 @@ package fr.dampierre;
 
 import java.util.Scanner;
 
-public class Exos {
+public class TP01_1_2_3_4heures {
 
     public static void main(String[] args) {
         System.out.println("Bonjour");
