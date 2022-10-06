@@ -30,5 +30,7 @@ public class C290922 {
             int ventesManquantes = quotaVentes - ventes;
             println("Il vous manque " + ventesManquantes + " ventes pour atteindre le quota.");
         }
+
+        println("Votre salaire est de " + salaire + "€.");
     }
 }
