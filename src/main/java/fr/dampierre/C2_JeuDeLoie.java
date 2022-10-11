@@ -10,9 +10,12 @@ public class C2_JeuDeLoie {
         int nbCases = 20; // Sans compter start
 
         int i = 0;
+        int aleatoire;
         while (i < nbLancers && progression < 20) {
-            progression += generateur.nextInt(6) + 1;
+            aleatoire = generateur.nextInt(6) + 1;
+            progression += aleatoire;
             i++;
+            System.out.println("Vous avez roulé un " + aleatoire + ".");
         }
 
         if (nbCases == progression) {
