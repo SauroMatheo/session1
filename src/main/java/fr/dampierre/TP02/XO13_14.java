@@ -37,13 +37,24 @@ public class XO13_14 {
     }
 
     public static void main(String[] args) {
-        System.out.println("NORMAL");
+        System.out.println("COMPLEXE");
+        System.out.println(deuxSensComplexe("quelconque")); // affichera 'false' car "quelconque" pas pareil que
+                                                            // "euqnocleuq"
+        System.out.println(deuxSensComplexe("kayak")); // 'true'
+        System.out.println(deuxSensComplexe("Un radar NU")); // 'true' (insensible à la casse)
+        System.out.println(deuxSensComplexe("Éric notre valet alla te laver ton ciré")); // 'false' (à cause des espaces
+                                                                                         // et de
+        // la ponctuation)
+        // Ce dernier exemple fonctionne aussi avec "Luc" à la place de "Eric"
+
+        System.out.println("===\nNORMAL");
         System.out.println(deuxSens("quelconque")); // affichera 'false' car "quelconque" pas pareil que "euqnocleuq"
         System.out.println(deuxSens("kayak")); // 'true'
         System.out.println(deuxSens("Un radar NU")); // 'true' (insensible à la casse)
         System.out.println(deuxSens("Éric notre valet alla te laver ton ciré")); // 'false' (à cause des espaces et de
                                                                                  // la ponctuation)
         // Ce dernier exemple fonctionne aussi avec "Luc" à la place de "Eric"
+
         System.out.println("===\nSANS ESPACES");
         System.out.println(deuxSensClement("quelconque")); // affichera 'false' car "quelconque" pas pareil que
                                                            // "euqnocleuq"
