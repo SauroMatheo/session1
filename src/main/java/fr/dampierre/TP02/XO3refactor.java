@@ -1,8 +1,8 @@
-package fr.dampierre;
+package fr.dampierre.TP02;
 
 import java.util.Scanner;
 
-public class TP02_3refactor {
+public class XO3refactor {
     static int compteBillets(int montant) {
         System.out.println();
         int nbBillets = montant / 20;

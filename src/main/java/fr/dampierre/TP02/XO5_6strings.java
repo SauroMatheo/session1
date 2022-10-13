@@ -1,8 +1,8 @@
-package fr.dampierre;
+package fr.dampierre.TP02;
 
 import java.util.Scanner;
 
-public class TP02_5_6strings {
+public class XO5_6strings {
     // Pratique
     static void println(String toPrintLn) {
         System.out.println(toPrintLn);

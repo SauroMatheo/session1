@@ -1,6 +1,6 @@
-package fr.dampierre;
+package fr.dampierre.TP02;
 
-public class TP02_07struc {
+public class XO7struc {
     // Cette méhode retourne le nombre d'entiers impairs parmi ses trois paramètres
     public static int nbImpairs(int nb1, int nb2, int nb3) { // Etait en void au lieu de int
         int nbImp = 0;

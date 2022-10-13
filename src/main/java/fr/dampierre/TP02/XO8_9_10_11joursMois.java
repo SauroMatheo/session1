@@ -1,6 +1,6 @@
-package fr.dampierre;
+package fr.dampierre.TP02;
 
-public class TP02_8_9_10_11joursMois {
+public class XO8_9_10_11joursMois {
     static boolean estBissextile(int annee) {
         return annee % 4 == 0;
     }

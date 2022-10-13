@@ -1,10 +1,10 @@
-package fr.dampierre;
+package fr.dampierre.TP02;
 
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
 
-public class TP02_3refactor_premium {
+public class XO3refactor_premium {
     static int compteBillets(int montant) {
         System.out.println();
         int nbBillets = montant / 20;

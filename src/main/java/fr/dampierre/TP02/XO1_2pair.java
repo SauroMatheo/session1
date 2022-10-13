@@ -1,8 +1,8 @@
-package fr.dampierre;
+package fr.dampierre.TP02;
 
 import java.util.Scanner;
 
-public class TP02_1_2pair {
+public class XO1_2pair {
     static boolean estPair(int nombre) {
         return nombre % 2 == 0;
     }

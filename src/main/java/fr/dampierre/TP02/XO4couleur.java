@@ -1,8 +1,8 @@
-package fr.dampierre;
+package fr.dampierre.TP02;
 
 import java.util.Scanner;
 
-public class TP02_4couleur {
+public class XO4couleur {
     static String couleur() {
         System.out.println("Quelle couleur souhaitez-vous ? ");
 
