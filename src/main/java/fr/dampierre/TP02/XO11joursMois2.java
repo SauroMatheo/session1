@@ -1,24 +1,16 @@
 package fr.dampierre.TP02;
 
-public class XO8_9_10_11joursMois {
+import java.time.YearMonth;
+
+public class XO11joursMois2 {
     static boolean estBissextile(int annee) {
-        return annee % 4 == 0;
+        YearMonth ym = YearMonth.of(annee, 1);
+        return ym.isLeapYear();
     }
 
-    static int nbJoursDuMois(int nbMois, int annee) {
-        int nbJours;
-
-        if (nbMois == 2) {
-            if (estBissextile(annee)) {
-                nbJours = 29;
-            } else {
-                nbJours = 28;
-            }
-        } else {
-            nbJours = 30 + nbMois % 2;
-        }
-
-        return nbJours;
+    static int nbJoursDuMois(int mois, int annee) {
+        YearMonth ym = YearMonth.of(annee, mois);
+        return ym.lengthOfMonth();
     }
 
     public static void main(String[] args) {
