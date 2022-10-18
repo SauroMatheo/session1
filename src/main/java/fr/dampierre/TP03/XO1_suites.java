@@ -10,8 +10,5 @@ public class XO1_suites {
             sortie1 += " " + suite1;
         }
         System.out.println(sortie1);
-
-        // Suite 2
-
     }
 }
