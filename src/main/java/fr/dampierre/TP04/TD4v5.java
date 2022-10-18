@@ -3,7 +3,7 @@ package fr.dampierre.TP04;
 import java.util.Random;
 import java.util.Scanner;
 
-public class TD4_01 {
+public class TD4v5 {
     public static void main(String[] args) {
         final int maximum = 100;
 
