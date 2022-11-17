@@ -20,7 +20,7 @@ public class XO4couleur {
             return "bleu";
         }
 
-        return "connais pas ";
+        return "connais pas";
     }
 
     public static void main(String[] args) {
