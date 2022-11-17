@@ -1,6 +1,6 @@
 package fr.dampierre.TP03;
 
-public class XO1_suites {
+public class suite1 {
     public static void main(String[] args) {
         // Suite 1
         int suite1 = -4;
