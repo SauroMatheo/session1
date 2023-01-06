@@ -10,8 +10,8 @@ public class POO1 {
     }
 
     public static void main(String[] args) {
-        Employe stanley = new Employe("Parable", "Stanley", 20, 2000);
-        Employe jon = new Employe("Arbuckle", "Jon", 30, 2000);
+        Employe stanley = new Employe("Parable", "Stanley", 20, 200000);
+        Employe jon = new Employe("Arbuckle", "Jon", 30, 200000);
 
         jon.augmentation(20);
 

@@ -4,13 +4,13 @@ public class Employe {
     String nom;
     String prenom;
     int age;
-    double salaire;
+    int salaire; // EN CENTIMES
 
-    Employe(String nom, String prenom, int age, double salaire) {
+    Employe(String nom, String prenom, int age, int salaire) {
         this.nom = nom;
         this.prenom = prenom;
         this.age = age;
-        this.salaire = salaire;
+        this.salaire = salaire; // EN CENTIMES
     }
 
     void augmentation(double pourcent) {
