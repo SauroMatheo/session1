@@ -50,6 +50,25 @@ public class motifs {
         System.out.println(sortie);
     }
 
+    /*
+     * public static void nouveau_0a9(int repete, int debut, boolean inverse, int
+     * colonnes) {
+     * String sortie = "";
+     * 
+     * if (inverse) {
+     * for (int i = nb - 1; i >= 0; i--) {
+     * sortie += de0a9(i, repete, debut);
+     * }
+     * } else {
+     * for (int i = 0; i < nb; i++) {
+     * sortie += de0a9(i, repete, debut);
+     * }
+     * }
+     * 
+     * System.out.println(sortie);
+     * }
+     */
+
     // ##MOTIFS## //
     public static void motif1(int colonnes) {
         repete_char("-", colonnes, true);
